@@ -20,8 +20,8 @@ function Main() {
 
     return (
         <div className='MainPage p-8'>
-            <div style={{ padding: '20px' }}>
-                <img src={Penguin} alt="Penguin" style={{ width: '100%', height: 'auto', maxWidth: '1200px' }} />
+            <div className='mx-auto' style={{ padding: '20px' }}>
+                <img src={Penguin} alt="Penguin" style={{ width: '90vw', height: 'auto', maxWidth: '1200px' }} />
             </div>
             <div
                 className="box-content mx-4 block rounded-lg bg-white text-left shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
