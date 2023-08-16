@@ -18,37 +18,48 @@
 }
 
 .HistoryPage{
-  padding-top: 68px;
-  height: auto;
-  background-color: seashell;
+  display: flex;
+    flex-direction: column;
+    padding-top: 68px;
+    height: auto;
+    background-color: seashell;
 }
 
 .ProjectPage{
-  padding-top: 68px;
-  height: auto;
-  background-color: seashell;
+  display: flex;
+    flex-direction: column;
+    padding-top: 68px;
+    height: 100vh;
 }
 
 .BackgroundPage{
-  padding-top: 68px;
-  height: auto;
-  background-color: seashell;
+  display: flex;
+    flex-direction: column;
+    padding-top: 68px;
+    height: auto;
+    background-color: seashell;
 }
 
 .LanguagesPage{
-  padding-top: 68px;
-  height: auto;
-  background-color: seashell;
+  display: flex;
+    flex-direction: column;
+    padding-top: 68px;
+    height: auto;
+    background-color: seashell;
 }
 
 .AlgorithmsPage{
-  padding-top: 68px;
-  height: auto;
-  background-color: seashell;
+  display: flex;
+    flex-direction: column;
+    padding-top: 68px;
+    height: auto;
+    background-color: seashell;
 }
 
 .TMIPage{
-  padding-top: 68px;
-  height: 100vh;
-  background-color: seashell;
+  display: flex;
+    flex-direction: column;
+    padding-top: 68px;
+    height: auto;
+    background-color: seashell;
 }
