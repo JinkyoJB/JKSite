@@ -67,8 +67,8 @@ function NavTabs() {
             <Tab icon={<PersonPinIcon />} label="Project" component={Link} to="/project" />
             <Tab icon={<PersonPinIcon />} label="Background" component={Link} to="/background" />
             <Tab icon={<PersonPinIcon />} label="languages" component={Link} to="/languages" />
-            <Tab icon={<PersonPinIcon />} label="algorithms" component={Link} to="/algorithms" />
-            <Tab icon={<PersonPinIcon />} label="tmi" component={Link} to="/tmi" />
+            {/* <Tab icon={<PersonPinIcon />} label="algorithms" component={Link} to="/algorithms" /> */}
+            {/* <Tab icon={<PersonPinIcon />} label="tmi" component={Link} to="/tmi" /> */}
         </Tabs>
     );
 }
