@@ -20,7 +20,7 @@ function Main() {
 
     return (
         <div className='MainPage p-8'>
-            <div className='mx-auto' style={{ padding: '20px' }}>
+            <div className='mx-auto my-12' style={{ padding: '20px' }}>
                 <img src={Penguin} alt="Penguin" style={{ width: '90vw', height: 'auto', maxWidth: '1200px' }} />
             </div>
             <div
