@@ -32,8 +32,8 @@ export default function App() {
           <Route path="/tmi" element={<TMI />} />
         </Routes>
         <footer
-          class="bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
-          <div class="p-4 text-center text-neutral-700 dark:text-neutral-200">
+          className="fixed bg-neutral-200 text-center lg:text-left bottom-0">
+          <div className="p-4 text-center text-neutral-700 ">
             © 2023 Copyright:
             <a
               className="text-neutral-800 dark:text-neutral-400 mx-2"

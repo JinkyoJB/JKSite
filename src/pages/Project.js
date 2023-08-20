@@ -100,38 +100,18 @@ function Project() {
 
                                                     <div className="flex flex-wrap items-center">
                                                         <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12">
-                                                            <div className="relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
+                                                            <div className="relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg"
                                                                 data-te-ripple-init data-te-ripple-color="light">
-                                                                <video className="w-full shadow-lg" autoplay loop controls muted>
-                                                                    <source
-                                                                        src={printer}
-                                                                        type="video/mp4" />
-                                                                </video>
-                                                                <a href="#!">
-                                                                    <div
-                                                                        className="absolute overflow-hidden top-0 right-0 bottom-0 left-0 h-full w-full bg-[hsl(0,0%,0%,0.4)] bg-fixed">
-                                                                        <div className="flex h-full items-center justify-center">
-                                                                            <div className="px-6 py-12 text-center text-white md:px-12">
-                                                                                <h3 className="mb-6 text-2xl font-bold uppercase">
-                                                                                    The future is
-                                                                                    <u className="text-[hsl(210,12%,80%)]">now</u>
-                                                                                </h3>
-                                                                                <p className="text-[hsl(210,12%,80%)]">
-                                                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                                                    Harum quia laboriosam error consequuntur fugit,
-                                                                                    doloribus rerum, iure nesciunt amet quidem veniam
-                                                                                    cupiditate hic fugiat dolore aperiam quisquam libero
-                                                                                    earum quibusdam?
-                                                                                </p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="relative overflow-hidden bg-cover bg-no-repeat">
-                                                                        <div
-                                                                            className="absolute overflow-hidden top-0 right-0 bottom-0 left-0 h-full w-full bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-                                                                        </div>
-                                                                    </div>
-                                                                </a>
+                                                                <figure className="text-center">
+                                                                    <figcaption className="mt-2 text-sm text-gray-500 ">
+                                                                        제작된 3D프린터 3D 프린터
+                                                                    </figcaption>
+                                                                    <video className="w-full shadow-lg" autoplay loop controls muted>
+                                                                        <source
+                                                                            src={printer}
+                                                                            type="video/mp4" />
+                                                                    </video>
+                                                                </figure>
                                                             </div>
                                                         </div>
 
