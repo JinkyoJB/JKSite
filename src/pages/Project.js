@@ -83,9 +83,7 @@ function Project() {
                                     </button>
                                 </div>
                                 {/* 모달 */}
-                                {showModal && (
-                                    <Modal1 />
-                                )}
+                                {showModal && <Modal1 showModal={showModal} setShowModal={setShowModal} />}
                             </div>
                         </div>
                     </div>
