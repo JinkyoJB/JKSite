@@ -65,7 +65,7 @@ function NavTabs() {
             <Tab icon={<AccountBoxIcon />} label="Main" component={Link} to="/" />
             <Tab icon={<MenuBookIcon />} label="History" component={Link} to="/history" />
             <Tab icon={<PersonPinIcon />} label="Project" component={Link} to="/project" />
-            <Tab icon={<PersonPinIcon />} label="Background" component={Link} to="/background" />
+            {/* <Tab icon={<PersonPinIcon />} label="Background" component={Link} to="/background" /> */}
             <Tab icon={<PersonPinIcon />} label="languages" component={Link} to="/languages" />
             {/* <Tab icon={<PersonPinIcon />} label="algorithms" component={Link} to="/algorithms" /> */}
             {/* <Tab icon={<PersonPinIcon />} label="tmi" component={Link} to="/tmi" /> */}

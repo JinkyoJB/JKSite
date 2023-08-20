@@ -42,10 +42,10 @@
 
 .LanguagesPage{
   display: flex;
-    flex-direction: column;
-    padding-top: 68px;
-    height: auto;
-    background-color: seashell;
+  flex-direction: column;
+  padding-top: 68px;
+  height: calc(100vh - 57px);
+  background-color: seashell;
 }
 
 .AlgorithmsPage{
