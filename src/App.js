@@ -11,7 +11,7 @@ import History from './pages/History';
 import Project from './pages/Project';
 import Background from './pages/Background';
 import Languages from './pages/Languages';
-import Algorithms from './pages/Algorithms';
+import StudyCode from './pages/StudyCode';
 import TMI from './pages/TMI';
 
 export default function App() {
@@ -28,7 +28,7 @@ export default function App() {
           <Route path="/project" element={<Project />} />
           <Route path="/background" element={<Background />} />
           <Route path="/languages" element={<Languages />} />
-          <Route path="/algorithms" element={<Algorithms />} />
+          <Route path="/Studycode" element={<StudyCode />} />
           <Route path="/tmi" element={<TMI />} />
         </Routes>
         <footer

@@ -297,7 +297,7 @@ function Modal3() {
               </figcaption>
             </figure>
             <p className='text-md text-left mx-8'>
-              3D프린터 하드웨어제어용 GUI는 PyQt5를 사용하여 py파일로 변환하여 제작했다. 해당 GUI를 통해 DLP에 input될 이미지, 광파워, 노광 시간, 3D프린터의 모터,센서를 조절할 수 있습니다. 또한 AI모드 출력 명령 버튼을 누르면 densenet을 적용하여 세라믹 표면에 결점이 발견 될 시 자동 재 블레이딩 및 블레이드 온도를 높이는 등의 폐루프 시스템을 적용할 수 있다.
+              3D프린터 하드웨어제어용 GUI는 <a href="https://build-system.fman.io/qt-designer-download">PyQt5</a>를 사용하여 py파일로 변환하여 제작했다. 해당 GUI를 통해 DLP에 input될 이미지, 광파워, 노광 시간, 3D프린터의 모터,센서를 조절할 수 있습니다. 또한 AI모드 출력 명령 버튼을 누르면 densenet을 적용하여 세라믹 표면에 결점이 발견 될 시 자동 재 블레이딩 및 블레이드 온도를 높이는 등의 폐루프 시스템을 적용할 수 있다.
               우측은 표면 결점을 검출하기 위해서 3D프린터 윗면에 달아둔 안드로이드기기를 통해 보여지는 이미지를 상시로 확인 할 수 있다. GUI를 통한 안드로이드 제어는 pure-python-adb, platform_tools, scrcpy를 통해 ADB서버를 이용했다.
             </p>
             <figure className="text-center my-4">
@@ -305,8 +305,8 @@ function Modal3() {
                 제작된 GUI 사용법
               </figcaption>
               <img style={{ height: '400px' }} src="https://github.com/JinkyoJB/DLP_auto/assets/85150616/3d5dbf48-469b-4432-98e3-5e1a2f96d043" alt="3D프린터-Original" />
-              
             </figure>
+
           </div>
         </div>
             

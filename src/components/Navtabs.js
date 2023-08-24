@@ -22,7 +22,7 @@ function NavTabs() {
                 return 3;
             case '/languages':
                 return 4;
-            case '/algorithms':
+            case '/Study_code':
                 return 5;
             case '/tmi':
                 return 6;
@@ -45,7 +45,7 @@ function NavTabs() {
             case '/languages':
                 setValue(4);
                 break;
-            case '/algorithms':
+            case '/Study_code':
                 setValue(5);
                 break;
             case '/tmi':
@@ -67,7 +67,7 @@ function NavTabs() {
             <Tab icon={<PersonPinIcon />} label="Project" component={Link} to="/project" />
             {/* <Tab icon={<PersonPinIcon />} label="Background" component={Link} to="/background" /> */}
             <Tab icon={<PersonPinIcon />} label="languages" component={Link} to="/languages" />
-            {/* <Tab icon={<PersonPinIcon />} label="algorithms" component={Link} to="/algorithms" /> */}
+            <Tab icon={<PersonPinIcon />} label="Study_code" component={Link} to="/studycode" />
             {/* <Tab icon={<PersonPinIcon />} label="tmi" component={Link} to="/tmi" /> */}
         </Tabs>
     );
