@@ -7,10 +7,6 @@ import {
 } from "tw-elements";
 
 import dental from '../assets/dental.png';
-import proecessImg from '../assets/process.png';
-import f11a from '../assets/figure11a.png';
-import f11b from '../assets/figure11b.png';
-
 
 //components
 import Modal1 from '../components/Modal1';
